@@ -141,7 +141,37 @@ Page :Home
 	color: #484848;
 }
 
+/*******************
+Page :Shows
+********************/
 
+#showbox {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 30px 5%;
+	color: grey;
+	float: center;
+
+}
+
+/*******************
+Page :Merch
+********************/
+
+#showpics {
+
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 30px 5%;
+	background: #000; 
+}
+
+#merchorder  {
+
+	color: #ccc;
+}
+
+	
 
 /*******************
 COLOR
