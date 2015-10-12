@@ -169,6 +169,7 @@ Page :Merch
 #merchorder  {
 
 	color: #ccc;
+	background-color: 
 }
 
 	
@@ -211,7 +212,7 @@ nav a, nav a:visited {
 
 nav a.selected, nav a:hover {
 
-	color:#606060;
+	color:#e6e6e6;
 }
 
 footer {
