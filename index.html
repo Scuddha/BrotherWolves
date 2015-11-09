@@ -29,12 +29,19 @@
  		<div id="wrapper"> 
  			
  			<section>
- 				<ul id= "home">
 
-			<li><img alt="Brother Wolves" src="http://s3.amazonaws.com/content.sitezoogle.com/u/148057/c431721c4c5b53252b3ba4e98ef069c00d60a1a8/original/bw-logo.png?1431715713"></li>
+ 				
+
+
+ 				<ul id= "home">
+ 				<a href="javascript:AlertIt();">
+					<li><img alt="Brother Wolves" src="http://s3.amazonaws.com/content.sitezoogle.com/u/148057/c431721c4c5b53252b3ba4e98ef069c00d60a1a8/original/bw-logo.png?1431715713"></li>
+				</a>
+				
 
  			<li><a href="img/BrotherWolvesVan.jpg">
- 			<img src="img/BrotherWolvesVan.jpg" alt="Band Photo"></li>
+ 			<img src="img/BrotherWolvesVan.jpg" alt="Band Photo"></a>
+ 			</li>
 
  				</ul>
  			</section>
@@ -75,7 +82,13 @@
 
 	 		</footer>
  		</div>
-
+ 		<script type="text/javascript">
+					function AlertIt() {
+						var answer = confirm ("Click on OK if you want to visit our other website.")
+						if (answer)
+						window.open("http://brotherwolvesmusic.com");
+					}
+ 		</script>
 
 	</body>
 	
