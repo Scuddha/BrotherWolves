@@ -5,8 +5,14 @@ GENERAL
 body {
 
 	font-family: 'Berkshire Swash', cursive;
+	color: white;
 }
 
+#home img {
+	display: block;
+	margin: 0 auto;
+	padding: 30px 0;
+}
 
 
 
@@ -24,6 +30,7 @@ a {
 
 	color: #fff;
 	text-decoration: none;
+
 }
 
 img {
@@ -127,15 +134,12 @@ Page :Home
 
 #home {
 
-	margin: 00;
+	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
 #home li {
-
-	float: center;
-	width: 100%;
 	margin: 2.5%;
 	background-color: #000;
 	color: #484848;
@@ -170,6 +174,15 @@ Page :Merch
 
 	color: #ccc;
 	background-color: 
+}
+
+form {
+
+	position:relative;
+	display:inline-block;
+	margin: 10px auto;
+	box-sizing: border-box; 
+	vertical-align: left;
 }
 
 	
@@ -215,7 +228,7 @@ nav a.selected, nav a:hover {
 	color:#e6e6e6;
 }
 
-footer {
+footer { 
 
 	
 }
