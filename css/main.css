@@ -145,6 +145,23 @@ General: Centering
 	background-color: #000;
 	color: #484848;
 }
+/*******************
+Page :Music
+********************/
+
+#sounds h1,
+#money h2,
+#dontwait h3 {
+font-size:2em 
+}
+
+#sounds p,
+#money p,
+#dontwait p, {
+	font-size: .8em
+}
+
+
 
 /*******************
 Page :Shows
